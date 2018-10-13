@@ -1,7 +1,7 @@
 node('master') {
 
     stage('build') {
-        echo 'hello world'
+        echo 'hello world in develop'
         sh './mvnw clean install'
     }
 
