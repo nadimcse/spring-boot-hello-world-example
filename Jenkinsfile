@@ -1,5 +1,6 @@
 node {
 
+    checkout scm
     stage('checkout') {
         echo 'checkout to devlop'
         checkout([$class: 'GitSCM', branches: [[name: '*/develop']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/nadimcse/spring-boot-hello-world-example.git']]])
