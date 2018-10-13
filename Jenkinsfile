@@ -1,4 +1,4 @@
-node('develop') {
+node('aaa') {
 
     stage('checkout') {
         echo 'checkout to devlop'
