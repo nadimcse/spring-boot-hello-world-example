@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: hello
+  cloud:
+    kubernetes:
+      reload:
+        enabled: true
+
+server:
+  port: 8080
